@@ -9,6 +9,7 @@ I am currently running Fedora 36 with the i3wm desktop.
 ## Dotfiles
 
 - bash
+- i3
 - nano
 - neomutt
 - newsboat
