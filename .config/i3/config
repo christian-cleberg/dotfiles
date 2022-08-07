@@ -213,5 +213,6 @@ for_window [class="^.*"] border pixel 1
 
 exec --no-startup-id xdg-user-dirs-update
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec --no-startup-id i3-battery-popup
 
 include ~/.config/i3/config.d/*.conf
