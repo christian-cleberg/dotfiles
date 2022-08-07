@@ -1,0 +1,10 @@
+set crypt_use_gpgme=yes
+set postpone_encrypt = yes
+set pgp_self_encrypt = yes
+set crypt_use_pka = no
+set crypt_autosign = no
+set crypt_autoencrypt = no
+set crypt_replyencrypt	= yes
+set crypt_autopgp = yes
+set pgp_timeout = 86400
+set pgp_sign_as=<gpg_signature>
