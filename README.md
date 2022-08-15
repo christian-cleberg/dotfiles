@@ -14,3 +14,7 @@ I am currently running Fedora 36 with the i3wm desktop.
 - neomutt
 - newsboat
 - polybay
+
+## Screenshots
+
+![Desktop Example](./examples/desktop.png "Desktop Example")

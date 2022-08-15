@@ -15,19 +15,16 @@ export PATH
 ############# CUSTOM #############
 # Add Go PATH for gomuks
 export PATH=$PATH:$HOME/go/bin
-# Add i3-battery-popup to PATH
-export PATH=$PATH:/usr/bin/i3-battery-popup
 # Add GPG_TTY for git signing
 export GPG_TTY=$(tty)
 # Add Django PATH for django (Python
-export PATH=$PATH:/home/uwu/.local/bin
+export PATH=$PATH:/home/xo/.local/bin
 # Add shortcuts
 alias zola="flatpak run org.getzola.zola"
 alias cryptomator="flatpak run org.cryptomator.Cryptomator"
 alias signal="flatpak run org.signal.Signal"
 alias curtail="flatpak run com.github.huluti.Curtail"
 alias plex="flatpak run tv.plex.PlexDesktop"
-alias codium="flatpak run com.vscodium.codium"
 # Show command completions & cycle through with TAB
 bind 'set show-all-if-ambiguous on'
 bind 'TAB:menu-complete'
@@ -55,7 +52,7 @@ case $- in
 esac
 
 # Path to the bash it configuration
-export BASH_IT="/home/uwu/.bash_it"
+export BASH_IT="/home/xo/.bash_it"
 
 # Lock and Load a custom theme file.
 # Leave empty to disable theming.
