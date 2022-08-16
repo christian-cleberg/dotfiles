@@ -13,8 +13,8 @@ I am currently running Fedora 36 with the i3wm desktop.
 - nano
 - neomutt
 - newsboat
-- polybay
+- polybar
 
 ## Screenshots
 
-![Desktop Example](./examples/desktop.png "Desktop Example")
+![Desktop Example](./_examples/desktop.png "Desktop Example")
