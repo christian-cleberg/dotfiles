@@ -20,6 +20,7 @@ export GPG_TTY=$(tty)
 # Add Django PATH for django (Python
 export PATH=$PATH:/home/xo/.local/bin
 # Add shortcuts
+alias emacs='emacs -nw'
 alias zola="flatpak run org.getzola.zola"
 alias cryptomator="flatpak run org.cryptomator.Cryptomator"
 alias signal="flatpak run org.signal.Signal"
