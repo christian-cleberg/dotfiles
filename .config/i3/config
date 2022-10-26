@@ -226,7 +226,10 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # exec --no-startup-id display-visor -f -l
 
 # include ~/.config/i3/config.d/*.conf
-gaps inner 5
+gaps inner 10
+smart_gaps on
+smart_gaps inverse_outer
+smart_borders on
 
-exec_always --no-startup-id "feh --randomize --bg-fill ~/Pictures/*"
+exec_always --no-startup-id "feh --randomize --bg-fill ~/Pictures/Wallpapers/*"
 exec_always --no-startup-id "feh-blur"

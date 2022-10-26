@@ -5,5 +5,5 @@ source ~/.config/neomutt/gpg
 source ~/.config/neomutt/gruvbox/colors-gruvbox-shuber-extended.muttrc
 
 # Accounts
-source ~/.config/neomutt/accounts/migadu
-folder-hook $folder 'source ~/.config/neomutt/accounts/migadu'
+source ~/.config/neomutt/accounts/mailbox
+folder-hook $folder 'source ~/.config/neomutt/accounts/mailbox'
