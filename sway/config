@@ -243,4 +243,8 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
+# Inhibity idle when watching fullscreen media in Firefox
+for_window [class="Firefox"] inhibit_idle fullscreen  # xwayland
+for_window [app_id="firefox"] inhibit_idle fullscreen # wayland
+
 include /etc/sway/config.d/*
