@@ -3,15 +3,11 @@
 export PATH=$PATH:$HOME/go/bin
 # Add GPG_TTY for git signing
 export GPG_TTY=$(tty)
-# Add Django PATH for django (Python
-export PATH=$PATH:/home/xo/.local/bin
 # Add shortcuts
-alias date="TZ='America/Chicago' date"
 alias emacs="emacs -nw"
 alias zola="flatpak run org.getzola.zola"
 alias cryptomator="flatpak run org.cryptomator.Cryptomator"
 alias signal="flatpak run org.signal.Signal"
-alias curtail="flatpak run com.github.huluti.Curtail"
 alias plex="flatpak run tv.plex.PlexDesktop"
 ##################################
 
