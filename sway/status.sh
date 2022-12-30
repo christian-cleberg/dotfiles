@@ -1,4 +1,5 @@
 # Date and time
+day=$(date "+%a")
 date_and_week=$(date "+%Y.%m.%d")
 current_time=$(date "+%H:%M:%S")
 
@@ -29,4 +30,4 @@ else
   mic="ENABLED"
 fi
 
-echo "Mic:" $mic "|" "Vol:" $volume "|" "BRT:" $brightness"%" "|" $battery_status $battery_charge "|" $date_and_week $current_time
+echo "Mic:" $mic "|" "Vol:" $volume "|" "BRT:" $brightness"%" "|" $battery_status $battery_charge "|" "["$day"]" $date_and_week $current_time
