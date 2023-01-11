@@ -4,17 +4,20 @@ A collection of the various dotfiles for my current Linux desktop setup.
 
 ## Current OS & DE
 
-I am currently running [Void Linux](https://voidlinux.org/) with 
-[i3-gaps](https://github.com/Airblader/i3).
+I am currently running [Alpine Linux](https://alpinelinux.org) with 
+[sway](https://swaywm.org/).
 
 ## Dotfiles
 
+- alacritty
 - bash
 - i3
 - nano
 - neomutt
 - newsboat
 - polybar
+- sway
+- zsh
 
 ## Screenshots
 
